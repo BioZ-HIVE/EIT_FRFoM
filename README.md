@@ -39,12 +39,12 @@ By skipping electrodes, this phantom can be used for 8, 16, or 32 electrode syst
 
 The 16 electrode ideal dataset for the reference image (ground truth) was generated through simulation using the resistive phantom with __adjacent EIT scan__, the two __X resistive elements__ was toggled between 68.1 Ω and 0 Ω for homogeneous and inhomogeneous datasets for EIT differential imaging. 
 
-The 16 electrode ground truth image datasets are provided in __sample_data.mat__ (in codeFiles folder) as __ref__ (inhomogeneous) and __data__(homogeneous).
+The 16 electrode ground truth image datasets are provided in (/codeFiles folder) __sample_data.mat__  as __ref__ (inhomogeneous) and __data__(homogeneous).
 
 ### 2. Identical reconstruction software
 The reconstruction software runs on MATLAB and includes:
 
-__eidors-v3.10-ng.zip__ and __2.FR_FOM_FORMAT.m__.
+(/codeFiles folder) __eidors-v3.10-ng.zip__ and __2.FR_FOM_FORMAT.m__.
 
 __sample_data.mat__ inlucdes __REF_Data__ (example of measured inhomogeneous datasets) and __EIT_Data_store__ (example of 50 frames of measured homogeneous datasets) and __ref__ (inhomogeneous) and __data__(homogeneous) obtained through resistive phantom simulation as the ground truth for comparion.
 
