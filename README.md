@@ -33,7 +33,7 @@ As an imaging system, the comparison should be ultimately demonstrated in terms 
 ### 1. Identical SUT
 For hardware system evaluation, a resistive phantom is used and is shown below: 
 
-<img src="ImageFiles/3-resis.JPG" width="500" >
+<img src="imageFiles/3-resis.JPG" width="500" >
 
 By skipping electrodes, this phantom can be used for 8, 16, or 32 electrode systems. 16 electrode EIT system was chosen as an illustrative example here. 
 
@@ -51,7 +51,7 @@ __sample_data.mat__ inlucdes __REF_Data__ (example of measured inhomogeneous dat
 ### 3. Identical FoM factor
 Run the __FR_FOM_FORMAT.m__ file will generate the FRx replot and the __Global FR__ and __ROI FR__ of the test EIT system. The __Global FR__ can be used to compute the new image-based EIT FoM shown before.
 
-<img src="ImageFiles/4-FRresults.JPG" width="500" >
+<img src="imageFiles/4-FRresults.JPG" width="500" >
 
 Please refer to the paper below for more details:
 *“An Imaged-Based Method for Universal Performance Evaluation of Electrical Impedance Tomography Systems,” in IEEE Transactions on Biomedical Circuits and Systems, 2021*
