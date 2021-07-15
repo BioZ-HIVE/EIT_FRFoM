@@ -1,1 +1,1 @@
-## This folder contrains images
+This folder contrains images
