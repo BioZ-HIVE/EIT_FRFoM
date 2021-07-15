@@ -44,7 +44,7 @@ The reconstruction software runs on MATLAB and includes (in codeFiles):
 
 2. __FR_FOM_FORMAT.m__
 
-3. __sample_data.mat__ includes __REF_Data__ (example of measured inhomogeneous datasets) and __EIT_Data_store__ (example of 50 frames of measured homogeneous datasets) and __ref__ (inhomogeneous) and __data__(homogeneous) obtained through resistive phantom simulation as the ground truth for comparison.
+3. __sample_data.mat__ includes __REF_Data__ (example of measured inhomogeneous datasets) and __EIT_Data_store__ (example of 50 frames of measured homogeneous datasets) with __ref__ (inhomogeneous) and __data__(homogeneous) obtained through resistive phantom simulation as the ground truth for comparison.
 
 Put __FR_FOM_FORMAT.m__ and unzipped __eidors-v3.10-ng__ into one folder and load the __sample_data.mat__. For details on how to use EIDORS or to download the latest version please refers to [EIDORS](http://eidors3d.sourceforge.net/).
 
