@@ -1,1 +1,1 @@
-## This folder contains MATLAB code and Example dataset
+This folder contains MATLAB code and Example dataset
