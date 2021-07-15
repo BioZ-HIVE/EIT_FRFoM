@@ -53,7 +53,7 @@ Run the __FR_FOM_FORMAT.m__ file to generate the FRx plot and the __Global FR__ 
 
 <img src="imageFiles/4-FRresults.JPG" width="500" >
 
-To evaluate e.g. a 16-electrode EIT system, keep __ref__ and __data__ as the ground truth, and replace __REF_Data__ and __EIT_Data_store__ with datasets measured from the evaluating system using the resistive phantom.
+To evaluate e.g. a 16-electrode EIT system, keep __ref__ and __data__ as the ground truth, and replace __REF_Data__ and __EIT_Data_store__ with datasets measured from the resistive phantom using the evaluating system.
 
 Please refer to the paper below for more details:
 *“An Imaged-Based Method for Universal Performance Evaluation of Electrical Impedance Tomography Systems,” in IEEE Transactions on Biomedical Circuits and Systems, 2021*
