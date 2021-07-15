@@ -4,12 +4,12 @@ The project provides a simple and reproducible methodology for the universal eva
 ## Background
 EIT is an impedance measurement technique that uses the tomography principle to reconstruct an image that illustrates the inner impedance distribution of the subject under test (SUT), it's basic working principle is as shown below:
 
-<img src="ImageFiles/1-bg.JPG" width="500" >
+<img src="imageFiles/1-bg.JPG" width="500" >
 
 ## Universal Figure-of-Merit (FoM) for EIT system evaluation
 Based on objective full referencing (FR), this evaluation method provides a visually distinguishable hot colormap and quantitative image quality metrics. It addresses the issues where common electrical parameters used in EIT hardware evaluation are not directly related to the quality of EIT images.
 
-<img src="ImageFiles/2-fom.JPG" width="1000" >
+<img src="imageFiles/2-fom.JPG" width="1000" >
 
 __P<sub>system</sub>__ is the system power consumption
 
@@ -29,7 +29,7 @@ As an imaging system, the comparison should be ultimately demonstrated in terms 
 ### 1. Identical SUT
 For hardware system evaluation, a resistive phantom is used and is shown below: 
 
-<img src="ImageFiles/3-resis.JPG" width="500" >
+<img src="imageFiles/3-resis.JPG" width="500" >
 
 By skipping electrodes, this phantom can be used for 8, 16, or 32 electrode systems. 16 electrode EIT system was chosen as an illustrative example here. 
 
@@ -51,7 +51,7 @@ Put __FR_FOM_FORMAT.m__ and unzipped __eidors-v3.10-ng__ into a folder and load 
 ### 3. Identical FoM factor
 Run the __FR_FOM_FORMAT.m__ file to generate the FRx plot and the __Global FR__ and __ROI FR__ of the test EIT system. The __Global FR__ can be used to compute the new image-based EIT FoM shown in the equation before.
 
-<img src="ImageFiles/4-FRresults.JPG" width="500" >
+<img src="imageFiles/4-FRresults.JPG" width="500" >
 
 To evaluate e.g. a 16-electrode EIT system, keep __ref__ and __data__ as the ground truth, and replace __REF_Data__ and __EIT_Data_store__ with datasets measured from the evaluating system using the resistive phantom.
 
